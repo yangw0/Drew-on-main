@@ -1,0 +1,119 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;
+	background-color: white;
+	color: black;
+	margin-top: -10px;
+}
+
+header, nav, article, footer {
+	width: 1500px;
+	margin: auto;
+}
+
+header {
+	height: 140px;
+	background-color: #FFEDA8;
+	color: black;
+	padding: 25px 0;
+}
+
+nav {
+	height: 1.7em;
+	padding: 0;
+	background-color: #FFEDA8;
+	border-bottom: 0px solid #CFB656;
+	margin-top: 0;
+}
+
+nav a {
+	display: block;
+	width: 90px;
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+nav a:link, nav a:visited {
+	background-color: #CFB656;
+	color: black;
+}
+
+nav a:hover, nav a:active {
+	box-sizing: border-box;
+	background-color: white;
+	color: #CFB656;
+	border: 1px solid #CFB656;
+}
+
+a {
+	text-decoration: none;
+	color: #FFEDA8;
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 150px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+footer {
+	clear: both;
+	line-height: 2em;
+	margin: 0 auto;
+	background-color:#CFB656;
+	color: white;
+}
+
+h1, h2 {
+	text-align: left;
+	margin: auto;
+	border-bottom: 2px solid #CFB656;
+	color: black;
+}
+
+header h1, header h2 {
+	border-width: 0;
+	color: #FFEDA8;
+}
+
+article {
+	box-sizing: border-box;
+	border: 1px solid white;
+	color: black;
+	padding: 15px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #CFB656;
+	color: white;
+}
+
+
+
